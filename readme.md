@@ -8,28 +8,26 @@ This is a simple HTML webpage project for **WD-Seatwork-1** by **Clark Jacob P. 
 
 ## 📁 Project Structure
 
-project-folder/
-│
-├── index.html
-├── README.md
-└── assets/
-├── css/
-│ └── style.css
-└── img/
-├── Gundam-removebg-preview.png
-├── Red_Zaku-removebg-preview.png
-├── Green_Zaku-removebg-preview.png
-├── efsf.png
-└── zeon.png
+assets/  
+├── css/  
+│   └── style.css  
+└── img/  
+&emsp;&emsp;├── Gundam-removebg-preview.png  
+&emsp;&emsp;├── Red_Zaku-removebg-preview.png  
+&emsp;&emsp;├── Green_Zaku-removebg-preview.png  
+&emsp;&emsp;├── efsf.png  
+&emsp;&emsp;└── zeon.png  
 
+index.html  
+README.md
 
 ## 🧾 Description
 
 Each section in the webpage includes:
-- A themed image (from Gundam)
-- Name and class info
-- Basic navigation bar (`Home`, `About`, `Contact`)
-- A footer with © 2025 text
+- A Gundam-themed image
+- Title part: Name, class, seatwork label
+- A navigation bar (`Home`, `About`, `Contact`)
+- A footer with "All Rights Reserved 2025"
 
 ## 🌐 Technologies Used
 
@@ -44,7 +42,7 @@ _Add screenshots of the web page here if needed._
 
 1. Clone or download the project.
 2. Open `index.html` in your browser.
-3. Make sure the images and CSS path are correct (`assets/` folder must be in the same directory as `index.html`).
+3. Make sure the `assets/` folder with `css/` and `img/` is in the same directory as `index.html`.
 
 ## 👨‍💻 Author
 
