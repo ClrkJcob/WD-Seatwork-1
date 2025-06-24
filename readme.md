@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/img/Gundam-removebg-preview.png" alt="Gundam Head" width="200"/>
+</p>
+
 # TC05 Sections - WD Seatwork 1
 
 This is a simple HTML webpage project for **WD-Seatwork-1** by **Clark Jacob P. Llamoso** of **TC05**. It demonstrates the use of sections, images, and basic navigation structure using HTML and external CSS.
@@ -17,6 +21,7 @@ project-folder/
 ├── Green_Zaku-removebg-preview.png
 ├── efsf.png
 └── zeon.png
+
 
 ## 🧾 Description
 
