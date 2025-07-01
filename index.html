@@ -16,54 +16,75 @@
       line-height: 1.6;
     }
 
-    /* Backgrounds */
+    .section {
+      padding: 60px 20px;
+    }
+
     .gundam { background-color: white; }
     .red-zaku { background-color: rgb(151, 82, 82); }
     .green-zaku { background-color: rgb(71, 110, 71); }
     .efsf { background-color: rgb(109, 109, 204); }
     .zeon { background-color: rgb(88, 88, 56); }
 
-    /* Sections */
-    .section {
-      padding: 60px 20px;
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .reverse {
+      flex-direction: row-reverse;
+    }
+
+    .centered {
+      justify-content: center;
+    }
+
+    .column {
+      flex-direction: column;
       text-align: center;
     }
 
-    .header-container {
-      max-width: 900px;
-      margin: 0 auto;
+    .pushed-left {
+      margin-right: auto;
     }
 
-    .header-top {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      gap: 30px;
-      margin-bottom: 20px;
+    .pushed-right {
+      margin-left: auto;
     }
 
-    .header-top img {
+    img {
       width: 180px;
       height: auto;
     }
 
-    .header-info {
-      text-align: left;
+    .info {
+      font-size: 1.1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
     }
 
-    .header-info .name {
+    .name {
       font-size: 2rem;
       font-weight: bold;
     }
 
-    .header-info .tc,
-    .header-info .seatwork {
-      font-size: 1.2rem;
+    .oneline {
+      font-size: 1.1rem;
+    }
+
+    .oneline .name {
+      font-size: 2rem;
+      font-weight: bold;
     }
 
     nav {
       margin-top: 20px;
+      text-align: center;
     }
 
     nav a {
@@ -79,28 +100,29 @@
       opacity: 0.7;
     }
 
-    /* Make all text black except footers */
-    .section *:not(footer):not(footer *):not(img) {
-      color: black !important;
-    }
-
     footer {
       margin-top: 30px;
       font-size: 0.9rem;
       opacity: 0.9;
-      color: rgb(0, 0, 0);
+      color: black;
+      text-align: center;
+    }
+
+    .section *:not(footer):not(footer *):not(img) {
+      color: black !important;
     }
   </style>
 </head>
 <body>
 
+  <!-- 1. Gundam - Original layout -->
   <section class="section gundam">
-    <div class="header-top">
+    <div class="content centered">
       <img src="assets/img/Gundam-removebg-preview.png" alt="Gundam Logo">
-      <div class="header-info">
+      <div class="info">
         <div class="name">Clark Jacob P. Llamoso</div>
-        <div class="tc">TC05</div>
-        <div class="seatwork">WD-Seatwork-1</div>
+        <div>TC05</div>
+        <div>WD-Seatwork-1</div>
       </div>
     </div>
     <nav>
@@ -111,13 +133,14 @@
     <footer>All Rights Reserved 2025</footer>
   </section>
 
+  <!-- 2. Red Zaku - Image far left, text right -->
   <section class="section red-zaku">
-    <div class="header-top">
-      <img src="assets/img/Red_Zaku-removebg-preview.png" alt="Red Zaku Logo">
-      <div class="header-info">
+    <div class="content">
+      <img class="pushed-left" src="assets/img/Red_Zaku-removebg-preview.png" alt="Red Zaku Logo">
+      <div class="info">
         <div class="name">Clark Jacob P. Llamoso</div>
-        <div class="tc">TC05</div>
-        <div class="seatwork">WD-Seatwork-1</div>
+        <div>TC05</div>
+        <div>WD-Seatwork-1</div>
       </div>
     </div>
     <nav>
@@ -128,13 +151,14 @@
     <footer>All Rights Reserved 2025</footer>
   </section>
 
+  <!-- 3. Green Zaku - Image far right, text left -->
   <section class="section green-zaku">
-    <div class="header-top">
-      <img src="assets/img/Green_Zaku-removebg-preview.png" alt="Green Zaku Logo">
-      <div class="header-info">
+    <div class="content reverse">
+      <img class="pushed-right" src="assets/img/Green_Zaku-removebg-preview.png" alt="Green Zaku Logo">
+      <div class="info">
         <div class="name">Clark Jacob P. Llamoso</div>
-        <div class="tc">TC05</div>
-        <div class="seatwork">WD-Seatwork-1</div>
+        <div>TC05</div>
+        <div>WD-Seatwork-1</div>
       </div>
     </div>
     <nav>
@@ -145,13 +169,12 @@
     <footer>All Rights Reserved 2025</footer>
   </section>
 
+  <!-- 4. EFSF - Image above the text -->
   <section class="section efsf">
-    <div class="header-top">
-      <img src="assets/img/efsf.png" alt="EFSF Logo">
-      <div class="header-info">
-        <div class="name">Clark Jacob P. Llamoso</div>
-        <div class="tc">TC05</div>
-        <div class="seatwork">WD-Seatwork-1</div>
+    <div class="content column">
+      <img src="assets/img/efsf.png" alt="EFSF Logo" style="margin-bottom: 20px;">
+      <div class="oneline">
+        <span class="name">Clark Jacob P. Llamoso</span> – TC05 – WD-Seatwork-1
       </div>
     </div>
     <nav>
@@ -162,14 +185,13 @@
     <footer>All Rights Reserved 2025</footer>
   </section>
 
+  <!-- 5. Zeon - Text above the image -->
   <section class="section zeon">
-    <div class="header-top">
-      <img src="assets/img/zeon.png" alt="Zeon Logo">
-      <div class="header-info">
-        <div class="name">Clark Jacob P. Llamoso</div>
-        <div class="tc">TC05</div>
-        <div class="seatwork">WD-Seatwork-1</div>
+    <div class="content column">
+      <div class="oneline">
+        <span class="name">Clark Jacob P. Llamoso</span> – TC05 – WD-Seatwork-1
       </div>
+      <img src="assets/img/zeon.png" alt="Zeon Logo" style="margin-top: 20px;">
     </div>
     <nav>
       <a href="#">Home</a>

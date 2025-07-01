@@ -1,53 +1,111 @@
-<p align="center">
-  <img src="assets/img/Gundam-removebg-preview.png" alt="Gundam Head" width="200"/>
-</p>
+<a name="readme-top"></a>
 
-# TC05 Sections - WD Seatwork 1
+<br/>
 
-This is a simple HTML webpage project for **WD-Seatwork-1** by **Clark Jacob P. Llamoso** of **TC05**. It demonstrates the use of sections, images, and basic navigation structure using HTML and external CSS.
+<div align="center">
+  <a href="#">
+    <img src="assets/img/Gundam-removebg-preview.png" alt="Gundam Head" width="130" height="100">
+  </a>
+  <h3 align="center">TC05 Sections - WD Seatwork 1</h3>
+</div>
 
-## 📁 Project Structure
+<div align="center">
+  A simple Gundam-themed HTML webpage showcasing sections, navigation, and layout using external CSS.
+</div>
 
-assets/  
-├── css/  
-│   └── style.css  
-└── img/  
-&emsp;&emsp;├── Gundam-removebg-preview.png  
-&emsp;&emsp;├── Red_Zaku-removebg-preview.png  
-&emsp;&emsp;├── Green_Zaku-removebg-preview.png  
-&emsp;&emsp;├── efsf.png  
-&emsp;&emsp;└── zeon.png  
+<br/>
 
-index.html  
-README.md
+![](https://visit-counter.vercel.app/counter.png?page=your-github-username/WD-Seatwork-1)
 
-## 🧾 Description
+<!-- Replace the wakatime badge with your own if applicable -->
+[![wakatime](https://wakatime.com/badge/user/your-user-id/project/your-project-id.svg)](https://wakatime.com)
 
-Each section in the webpage includes:
-- A Gundam-themed image
-- Title part: Name, class, seatwork label
-- A navigation bar (`Home`, `About`, `Contact`)
-- A footer with "All Rights Reserved 2025"
+---
 
-## 🌐 Technologies Used
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#overview">Overview</a>
+      <ol>
+        <li><a href="#key-components">Key Components</a></li>
+        <li><a href="#technology">Technology</a></li>
+      </ol>
+    </li>
+    <li><a href="#rules-practices-and-principles">Rules, Practices and Principles</a></li>
+    <li><a href="#resources">Resources</a></li>
+  </ol>
+</details>
 
-- HTML5
-- CSS3
+---
 
-## 📸 Screenshots
+## Overview
 
-_Add screenshots of the web page here if needed._
+This is an HTML-based webpage project created for **WD-Seatwork-1** under the subject **Web Design**. It demonstrates basic webpage layout using:
+- Thematic sections
+- External CSS
+- Semantic HTML structure
 
-## 🚀 How to Use
+### Key Components
+- Five Gundam-themed sections: Gundam, Red Zaku, Green Zaku, EFSF, Zeon
+- Name, section label, and seatwork header in each section
+- A navigation bar with `Home`, `About`, `Contact` links
+- Individual footers with a copyright
 
-1. Clone or download the project.
-2. Open `index.html` in your browser.
-3. Make sure the `assets/` folder with `css/` and `img/` is in the same directory as `index.html`.
+### Technology
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+---
+
+## Rules, Practices and Principles
+
+1. Always use `WD-` in front of the project title.
+2. Use `index.html` as the main file name.
+3. Organize assets into their respective folders (`css`, `img`, `js`).
+4. File names should follow camelCase formatting.
+5. Use only **external CSS**.
+6. Folder names must reflect their purpose or content.
+7. Follow this file structure:
+
+<pre> WD-Seatwork-1 
+├── assets 
+│ 
+├── css 
+│ 
+│ 
+└── style.css 
+│ 
+└── img 
+│ 
+├── Gundam-removebg-preview.png 
+│ 
+├── Red_Zaku-removebg-preview.png 
+│ 
+├── Green_Zaku-removebg-preview.png 
+│ 
+├── efsf.png 
+│ 
+└── zeon.png 
+├── index.html 
+└── readme.md </pre>
+
+---
+
+## Resources
+
+| Title         | Purpose                                | Link          |
+|---------------|----------------------------------------|---------------|
+| Gundam Logos  | Section imagery                        | Custom asset  |
+| FEU Template  | File structure, practices, and format  | Instructor    |
+
+---
 
 ## 👨‍💻 Author
 
 **Clark Jacob P. Llamoso**  
-Student, TC05 – FEU Tech  
+Student, TC05 – FEU Tech
 
 ## 📅 Year
 
