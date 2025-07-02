@@ -46,7 +46,7 @@ This project is a seatwork submission for **TC05 – Web Design**. It highlights
 - Five distinct pages:
   - 🦾 Gundam
   - 🔴 Red Zaku
-  - 🟢 Green Zaku
+  - 🟢 Zaku
   - 💙 EFSF
   - 💛 Zeon
 - Homepage with links to all sections
