@@ -1,23 +1,22 @@
 <a name="readme-top"></a>
 
-<br/>
+<br />
 
 <div align="center">
   <a href="#">
-    <img src="assets/img/Gundam-removebg-preview.png" alt="Gundam Head" width="130" height="100">
+    <img src="./assets/img/Gundam-removebg-preview.png" alt="Gundam Logo" width="130" height="100">
   </a>
-  <h3 align="center">TC05 Sections - WD Seatwork 1</h3>
+  <h3 align="center">WD-Seatwork-1</h3>
 </div>
 
 <div align="center">
-  A simple Gundam-themed HTML webpage showcasing sections, navigation, and layout using external CSS.
+  A Gundam-themed Web Design project for TC05 showing layout, sections, headers and footers using external CSS.
 </div>
 
-<br/>
+<br />
 
-![](https://visit-counter.vercel.app/counter.png?page=your-github-username/WD-Seatwork-1)
+![](https://visit-counter.vercel.app/counter.png?page=ClarkJacob/WD-Seatwork-1)
 
-<!-- Replace the wakatime badge with your own if applicable -->
 [![wakatime](https://wakatime.com/badge/user/your-user-id/project/your-project-id.svg)](https://wakatime.com)
 
 ---
@@ -25,13 +24,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#overview">Overview</a>
-      <ol>
-        <li><a href="#key-components">Key Components</a></li>
-        <li><a href="#technology">Technology</a></li>
-      </ol>
-    </li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#key-components">Key Components</a></li>
+    <li><a href="#technology">Technology</a></li>
     <li><a href="#rules-practices-and-principles">Rules, Practices and Principles</a></li>
     <li><a href="#resources">Resources</a></li>
   </ol>
@@ -41,71 +36,69 @@
 
 ## Overview
 
-This is an HTML-based webpage project created for **WD-Seatwork-1** under the subject **Web Design**. It demonstrates basic webpage layout using:
-- Thematic sections
-- External CSS
+This project is a seatwork submission for **TC05 – Web Design**. It highlights the use of:
 - Semantic HTML structure
+- Consistent CSS styling using external stylesheets
+- Individual themed sections following a Gundam concept
 
 ### Key Components
-- Five Gundam-themed sections: Gundam, Red Zaku, Green Zaku, EFSF, Zeon
-- Name, section label, and seatwork header in each section
-- A navigation bar with `Home`, `About`, `Contact` links
-- Individual footers with a copyright
+
+- Five distinct pages:
+  - 🦾 Gundam
+  - 🔴 Red Zaku
+  - 🟢 Green Zaku
+  - 💙 EFSF
+  - 💛 Zeon
+- Homepage with links to all sections
+- Headers and footers per section with consistent identity info
+- Search bar and navigation menus
+- Organized folder structure
 
 ### Technology
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
----
-
 ## Rules, Practices and Principles
 
-1. Always use `WD-` in front of the project title.
-2. Use `index.html` as the main file name.
-3. Organize assets into their respective folders (`css`, `img`, `js`).
-4. File names should follow camelCase formatting.
-5. Use only **external CSS**.
-6. Folder names must reflect their purpose or content.
-7. Follow this file structure:
+1. Use `WD-` prefix for the project title.
+2. Main file must be `index.html`.
+3. Organize files into `assets`, `css`, `img`, and `pages` folders.
+4. Follow camelCase naming for files.
+5. Use **external CSS only**.
+6. Structure folder names by purpose.
 
-<pre> WD-Seatwork-1 
-├── assets 
-│ 
-├── css 
-│ 
-│ 
-└── style.css 
-│ 
-└── img 
-│ 
-├── Gundam-removebg-preview.png 
-│ 
-├── Red_Zaku-removebg-preview.png 
-│ 
-├── Green_Zaku-removebg-preview.png 
-│ 
-├── efsf.png 
-│ 
-└── zeon.png 
-├── index.html 
-└── readme.md </pre>
+### File Structure
+WD-Seatwork-1
 
----
+├── index.html
+├── readme.md
+├── pages
+│ ├── page1 (Gundam)
+│ ├── page2 (Red Zaku)
+│ ├── page3 (Green Zaku)
+│ ├── page4 (EFSF)
+│ └── page5 (Zeon)
+Each with:
+│ ├── index.html
+│ └── assets
+│ ├── css/style.css
+│ └── img/[image]
 
 ## Resources
 
-| Title         | Purpose                                | Link          |
-|---------------|----------------------------------------|---------------|
-| Gundam Logos  | Section imagery                        | Custom asset  |
-| FEU Template  | File structure, practices, and format  | Instructor    |
+| Resource        | Purpose             |
+|-----------------|---------------------|
+| Gundam Images   | Section Logos       |
+| FEU Template    | Project Guidelines  |
+| W3Schools, MDN  | HTML/CSS References |
 
 ---
 
 ## 👨‍💻 Author
 
 **Clark Jacob P. Llamoso**  
-Student, TC05 – FEU Tech
+Student – TC05, FEU Tech
 
 ## 📅 Year
 

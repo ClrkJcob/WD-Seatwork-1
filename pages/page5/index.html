@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WD-Seatwork-1 – Green Zaku</title>
+  <title>WD-Seatwork-1 – Zeon</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #0f1a0f;
-      color: #d0ffd0;
+      background: linear-gradient(to bottom right, #222, #333, #2b2b1f);
+      color: #d9ffd9;
     }
 
     header {
-      background-color: #1c352d;
       padding: 20px 40px;
+      background-color: #111;
+      border-bottom: 3px solid limegreen;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      border-bottom: 3px solid #66ff66;
     }
 
     .logo {
@@ -42,9 +42,14 @@
       font-size: 1.2rem;
     }
 
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
     nav a {
-      color: #80ff80;
-      margin-left: 20px;
+      color: limegreen;
       text-decoration: none;
       font-weight: bold;
     }
@@ -53,28 +58,37 @@
       text-decoration: underline;
     }
 
+    .search-bar input {
+      padding: 6px 10px;
+      border: 1px solid limegreen;
+      border-radius: 4px;
+      background: transparent;
+      color: white;
+    }
+
     main {
       padding: 60px 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
+      text-align: center;
     }
 
     main img {
-      width: 200px;
-      margin-bottom: 20px;
+      width: 180px;
+      margin: 20px 0;
     }
 
     h2 {
-      margin-bottom: 10px;
       font-size: 2rem;
       color: #aaffaa;
+      margin-bottom: 10px;
     }
 
     p {
-      text-align: center;
       max-width: 600px;
       line-height: 1.6;
+      color: #d0ffd0;
     }
 
     .home-button {
@@ -83,8 +97,8 @@
 
     .home-button a {
       display: inline-block;
-      background-color: #2a4f2a;
-      color: #aaffaa;
+      background-color: limegreen;
+      color: #111;
       padding: 10px 20px;
       text-decoration: none;
       border-radius: 8px;
@@ -93,15 +107,15 @@
     }
 
     .home-button a:hover {
-      background-color: #1f3a1f;
-      color: #ffffff;
+      background-color: #88ff88;
+      color: #000;
     }
 
     footer {
       text-align: center;
       padding: 15px;
+      background-color: #111;
       font-size: 0.9rem;
-      background-color: #102410;
       color: #88cc88;
     }
   </style>
@@ -109,23 +123,25 @@
 <body>
   <header>
     <div class="logo">
-      <img src="assets/img/Green_Zaku-removebg-preview.png" alt="Green Zaku">
+      <img src="assets/img/zeon.png" alt="Zeon Logo">
       <div class="info">
         <strong>Clark Jacob P. Llamoso</strong>
         TC05 – WD-SEATWORK1
       </div>
     </div>
     <nav>
-      <a href="#">Overview</a>
-      <a href="#">Systems</a>
-      <a href="#">History</a>
+      <a href="#">Zeon Forces</a>
+      <a href="#">Battles</a>
+      <div class="search-bar">
+        <input type="text" placeholder="Search Zeon...">
+      </div>
     </nav>
   </header>
 
   <main>
-    <img src="assets/img/Green_Zaku-removebg-preview.png" alt="Green Zaku Logo">
-    <h2>Green Zaku Unit</h2>
-    <p>This page explores the design and layout for the Green Zaku. Using semantic HTML and external CSS, it brings structure to a themed layout.</p>
+    <h2>Principality of Zeon</h2>
+    <img src="assets/img/zeon.png" alt="Zeon Emblem">
+    <p>This final section is themed after Zeon, with dark tones and bright neon highlights to reflect a more militaristic, shadowy design. Still built using semantic HTML and external CSS structure.</p>
     <p><strong>Clark Jacob P. Llamoso – TC05 – WD-Seatwork-1</strong></p>
 
     <!-- ✅ Home Button -->

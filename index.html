@@ -2,342 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TC05 Sections - Clark Jacob P. Llamoso</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WD-Seatwork-1 - Clark Jacob P. Llamoso</title>
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
     body {
-      font-family: 'Segoe UI', sans-serif;
-      line-height: 1.6;
-      background-color: #0d0d0d;
-    }
-
-    section {
-      padding: 80px 20px 60px;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px;
+      background-color: #121212;
       color: white;
+      text-align: center;
     }
-
-    header {
-      width: 100%;
-      padding: 20px 40px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-
-    .left, .center, .right {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-
-    .left img {
-      width: 50px;
-      height: 50px;
-    }
-
-    .name {
-      font-size: 1.4rem;
-      font-weight: bold;
-    }
-
-    .info {
-      font-size: 0.9rem;
-      opacity: 0.9;
-    }
-
-    nav a, .btn, .status {
+    h1 {
       color: cyan;
+    }
+    .link-container {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    a {
+      color: white;
+      background: #1e1e1e;
+      padding: 12px 20px;
+      border: 1px solid cyan;
+      border-radius: 8px;
       text-decoration: none;
-      font-weight: bold;
-      font-size: 0.95rem;
-      margin: 0 10px;
+      width: 250px;
+      text-align: center;
       transition: 0.3s;
     }
-
-    nav a:hover, .btn:hover {
-      opacity: 0.7;
-    }
-
-    .btn {
-      padding: 6px 14px;
-      border: none;
-      border-radius: 6px;
-      background: rgba(255,255,255,0.1);
-      color: white;
-      cursor: pointer;
-    }
-
-    input[type="text"] {
-      padding: 6px 10px;
-      border: 1px solid cyan;
-      border-radius: 4px;
-      background: transparent;
-      color: white;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.8rem;
-      margin-top: 40px;
-      opacity: 0.7;
-    }
-
-    .content {
-      max-width: 1000px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      gap: 30px;
-      flex-wrap: wrap;
-    }
-
-    .reverse {
-      flex-direction: row-reverse;
-    }
-
-    .centered {
-      justify-content: center;
-    }
-
-    .column {
-      flex-direction: column;
-      text-align: center;
-    }
-
-    .pushed-left {
-      margin-right: auto;
-    }
-
-    .pushed-right {
-      margin-left: auto;
-    }
-
-    img {
-      width: 180px;
-      height: auto;
-    }
-
-    .info-box {
-      font-size: 1.1rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .oneline {
-      font-size: 1.1rem;
-    }
-
-    .oneline .name {
-      font-size: 2rem;
-      font-weight: bold;
-    }
-
-    /* ==== Section Styles Inspired by Screenshot ==== */
-    .gundam {
-      background: linear-gradient(to right, #696969, #101c2b);
-    }
-
-    .gundam header {
-      border-bottom: 2px solid cyan;
-    }
-
-    .red-zaku {
-      background: linear-gradient(to right, #d83306, #4b4b4b);
-      color: #111;
-    }
-
-    .red-zaku .btn {
-      background-color: rgba(209, 0, 0, 0.2);
-      color: #111;
-    }
-
-    .green-zaku {
-      background-color: #0d0d0d;
-    }
-
-    .green-zaku header {
-      border: 2px solid cyan;
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 30px;
-    }
-
-    .efsf {
-      background: linear-gradient(to right, #ff66cc, #99ccff);
+    a:hover {
+      background-color: cyan;
       color: black;
-    }
-
-    .efsf nav a {
-      color: black;
-    }
-
-    .zeon {
-      background: linear-gradient(to right, #2f2f2f, #666633);
-    }
-
-    .zeon .search {
-      display: flex;
-      gap: 10px;
-    }
-
-    .zeon input[type="text"] {
-      border-color: limegreen;
-    }
-
-    .zeon nav a {
-      color: limegreen;
     }
   </style>
 </head>
 <body>
-
-  <!-- 1. Gundam -->
-  <section class="gundam">
-    <header>
-      <div class="left">
-        <img src="assets/img/Gundam-removebg-preview.png" alt="Gundam">
-        <div>
-          <div class="name">Clark Jacob P. Llamoso</div>
-          <div class="info">TC05 – WD-SEATWORK1</div>
-        </div>
-      </div>
-      <nav class="right">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <input type="text" placeholder="Search...">
-      </nav>
-    </header>
-    <div class="content centered">
-      <img src="assets/img/Gundam-removebg-preview.png" alt="Gundam Logo">
-      <div class="info-box">
-        <div class="name">Clark Jacob P. Llamoso</div>
-        <div>TC05</div>
-        <div>WD-Seatwork-1</div>
-      </div>
-    </div>
-    <footer>All Rights Reserved 2025</footer>
-  </section>
-
-  <!-- 2. Red Zaku -->
-  <section class="red-zaku">
-    <header>
-      <div class="left">
-        <img src="assets/img/Red_Zaku-removebg-preview.png" alt="Red Zaku">
-        <div>
-          <div class="name">Clark Jacob P. Llamoso</div>
-          <div class="info">TC05 – WD-SEATWORK1</div>
-        </div>
-      </div>
-      <div class="right">
-        <button class="btn">Projects</button>
-        <button class="btn">Services</button>
-        <button class="btn">News</button>
-        <button class="btn">More ⌄</button>
-      </div>
-    </header>
-    <div class="content">
-      <img class="pushed-left" src="assets/img/Red_Zaku-removebg-preview.png" alt="Red Zaku Logo">
-      <div class="info-box">
-        <div class="name">Clark Jacob P. Llamoso</div>
-        <div>TC05</div>
-        <div>WD-Seatwork-1</div>
-      </div>
-    </div>
-    <footer>All Rights Reserved 2025</footer>
-  </section>
-
-  <!-- 3. Green Zaku -->
-  <section class="green-zaku">
-    <header>
-      <div class="left">
-        <img src="assets/img/Green_Zaku-removebg-preview.png" alt="Green Zaku">
-        <div>
-          <div class="name">Clark Jacob P. Llamoso</div>
-          <div class="info">TC05 – WD-SEATWORK1</div>
-        </div>
-      </div>
-      <div class="center">
-        <nav>
-          <a href="#">Dashboard</a>
-          <a href="#">Reports</a>
-          <a href="#">Help</a>
-        </nav>
-        <span class="status">Status: <span style="color: lime;">Online</span></span>
-      </div>
-    </header>
-    <div class="content reverse">
-      <img class="pushed-right" src="assets/img/Green_Zaku-removebg-preview.png" alt="Green Zaku Logo">
-      <div class="info-box">
-        <div class="name">Clark Jacob P. Llamoso</div>
-        <div>TC05</div>
-        <div>WD-Seatwork-1</div>
-      </div>
-    </div>
-    <footer>All Rights Reserved 2025</footer>
-  </section>
-
-  <!-- 4. EFSF -->
-  <section class="efsf">
-    <header>
-      <div class="left">
-        <img src="assets/img/efsf.png" alt="EFSF">
-        <div>
-          <div class="name">Clark Jacob P. Llamoso</div>
-          <div class="info">TC05 – WD-SEATWORK1</div>
-        </div>
-      </div>
-      <nav class="right">
-        <a href="#">Portfolio</a>
-        <a href="#">Resume</a>
-        <a href="#">Contact</a>
-        <input type="text" placeholder="Search...">
-      </nav>
-    </header>
-    <div class="content column">
-      <img src="assets/img/efsf.png" alt="EFSF Logo" style="margin-bottom: 20px;">
-      <div class="oneline">
-        <span class="name">Clark Jacob P. Llamoso</span> – TC05 – WD-Seatwork-1
-      </div>
-    </div>
-    <footer>All Rights Reserved 2025</footer>
-  </section>
-
-  <!-- 5. Zeon -->
-  <section class="zeon">
-    <header>
-      <div class="left">
-        <img src="assets/img/zeon.png" alt="Zeon">
-        <div>
-          <div class="name">Clark Jacob P. Llamoso</div>
-          <div class="info">TC05 – WD-SEATWORK1</div>
-        </div>
-      </div>
-      <div class="search right">
-        <nav>
-          <a href="#">Forces</a>
-          <a href="#">History</a>
-        </nav>
-        <input type="text" placeholder="Search Zeon...">
-      </div>
-    </header>
-    <div class="content column">
-      <div class="oneline">
-        <span class="name">Clark Jacob P. Llamoso</span> – TC05 – WD-Seatwork-1
-      </div>
-      <img src="assets/img/zeon.png" alt="Zeon Logo" style="margin-top: 20px;">
-    </div>
-    <footer>All Rights Reserved 2025</footer>
-  </section>
-
+  <h1>Clark Jacob P. Llamoso</h1>
+  <h2>WD-Seatwork-1 Sections</h2>
+  <div class="link-container">
+    <a href="pages/page1/index.html">🦾 Gundam</a>
+    <a href="pages/page2/index.html">🔴 Red Zaku</a>
+    <a href="pages/page3/index.html">🟢 Zaku</a>
+    <a href="pages/page4/index.html">💙 EFSF</a>
+    <a href="pages/page5/index.html">💛 Zeon</a>
+  </div>
 </body>
 </html>

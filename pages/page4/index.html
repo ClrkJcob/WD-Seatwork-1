@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WD-Seatwork-1 – Green Zaku</title>
+  <title>WD-Seatwork-1 – EFSF</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #0f1a0f;
-      color: #d0ffd0;
+      background: linear-gradient(to bottom, #1e2a38, #2c3e50);
+      color: #dce6f0;
     }
 
     header {
-      background-color: #1c352d;
       padding: 20px 40px;
+      background-color: #2f3d4d;
+      border-bottom: 2px solid #4e91c7;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      border-bottom: 3px solid #66ff66;
     }
 
     .logo {
@@ -34,17 +34,24 @@
     }
 
     .info {
-      font-size: 1rem;
+      font-size: 0.95rem;
     }
 
     .info strong {
       display: block;
       font-size: 1.2rem;
+      color: #b0d8ff;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
     }
 
     nav a {
-      color: #80ff80;
-      margin-left: 20px;
+      color: #80bfff;
       text-decoration: none;
       font-weight: bold;
     }
@@ -55,26 +62,25 @@
 
     main {
       padding: 60px 20px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      text-align: center;
     }
 
     main img {
-      width: 200px;
+      width: 180px;
       margin-bottom: 20px;
     }
 
     h2 {
-      margin-bottom: 10px;
       font-size: 2rem;
-      color: #aaffaa;
+      color: #9ccdf2;
+      margin-bottom: 10px;
     }
 
     p {
-      text-align: center;
-      max-width: 600px;
+      max-width: 650px;
+      margin: 0 auto;
       line-height: 1.6;
+      color: #c0d9ec;
     }
 
     .home-button {
@@ -83,8 +89,8 @@
 
     .home-button a {
       display: inline-block;
-      background-color: #2a4f2a;
-      color: #aaffaa;
+      background-color: #4e91c7;
+      color: #ffffff;
       padding: 10px 20px;
       text-decoration: none;
       border-radius: 8px;
@@ -93,39 +99,55 @@
     }
 
     .home-button a:hover {
-      background-color: #1f3a1f;
-      color: #ffffff;
+      background-color: #3a6e9e;
     }
 
     footer {
       text-align: center;
       padding: 15px;
+      background-color: #2f3d4d;
       font-size: 0.9rem;
-      background-color: #102410;
-      color: #88cc88;
+      color: #aabdcf;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        justify-content: center;
+      }
+
+      header {
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .logo {
+        flex-direction: column;
+      }
     }
   </style>
 </head>
 <body>
   <header>
     <div class="logo">
-      <img src="assets/img/Green_Zaku-removebg-preview.png" alt="Green Zaku">
+      <img src="assets/img/efsf.png" alt="EFSF Logo">
       <div class="info">
         <strong>Clark Jacob P. Llamoso</strong>
         TC05 – WD-SEATWORK1
       </div>
     </div>
     <nav>
-      <a href="#">Overview</a>
-      <a href="#">Systems</a>
-      <a href="#">History</a>
+      <a href="#">Command</a>
+      <a href="#">Fleet</a>
+      <a href="#">Support</a>
     </nav>
   </header>
 
   <main>
-    <img src="assets/img/Green_Zaku-removebg-preview.png" alt="Green Zaku Logo">
-    <h2>Green Zaku Unit</h2>
-    <p>This page explores the design and layout for the Green Zaku. Using semantic HTML and external CSS, it brings structure to a themed layout.</p>
+    <img src="assets/img/efsf.png" alt="EFSF Logo" style="width: 600px; height: 600px;">
+    <h2>Earth Federation Space Force</h2>
+    <p>This section represents the Earth Federation Space Force. With a more subdued blue-gray color palette, it reflects order, discipline, and the tone of a formal military alliance — while keeping modern, readable layout.</p>
     <p><strong>Clark Jacob P. Llamoso – TC05 – WD-Seatwork-1</strong></p>
 
     <!-- ✅ Home Button -->
